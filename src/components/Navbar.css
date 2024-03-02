@@ -1,0 +1,26 @@
+.navbar-container{
+    display:flex;
+    width:100%;
+    align-items: center;
+}
+
+.navbar{
+    display: flex;
+    padding: 1rem 0;
+    width:100%;
+    align-items:center;
+    justify-content: center;
+
+}
+
+.nes-btn{
+    width:200px;
+    height:45px;
+    min-width: 200px;
+    font-size: 1.6rem;
+}
+
+.navbar .nes-btn:last-child {
+    margin-top: 0;
+}
+

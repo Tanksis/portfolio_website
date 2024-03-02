@@ -1,0 +1,53 @@
+.main {
+    font-size: 5rem;
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .title-text {
+    margin-top: 2rem;
+    width: auto;
+  }
+  
+  .title-text--primary {
+    letter-spacing: 0.5rem;
+    color: #6862c2;
+    text-shadow: 1px 5px #fefefe, -1px -5px #fefefe, 5px -5px #fefefe,
+      -5px 5px #fefefe, 5px 0px #fefefe, -5px 0px #fefefe;
+    text-transform: uppercase;
+  }
+  
+  .title-text--secondary {
+    width: auto;
+    font-size: 2.3rem;
+    border-bottom: 3px solid #fefefe;
+    padding-bottom: 2rem;
+  }
+  
+  .title-text--tertiary {
+    font-size: 3rem;
+  }
+  
+  .flash {
+    animation: flash 2s infinite;
+  }
+  
+  @keyframes flash {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }

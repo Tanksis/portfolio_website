@@ -1,0 +1,9 @@
+.App {
+  text-align: center;
+  height: 100%;
+  background: #212529;
+}
+@font-face {
+  font-family: 'Press Start 2P';
+  src: local('Press Start 2P'), url(https://fonts.gstatic.com/s/pressstart2p/v8/e3t4euO8T-267oIAQAu6jDQyK0nSgPJE4580.ttf) format('truetype');
+}
